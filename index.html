@@ -10,18 +10,17 @@
         <h1>Welcome to the Chat Website</h1>
       </div>
       <div id="chat-messages">
-        <ul id="message-list">
-          <!-- messages will be appended here -->
-        </ul>
+        <ul id="message-list"></ul>
       </div>
       <div id="chat-input">
         <form>
           <input type="text" id="message-input" placeholder="Type your message here...">
-          <button type="button" id="emoji-picker-btn">🙂</button>
           <button type="submit" id="send-btn">Send</button>
         </form>
       </div>
     </div>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.16.0/firebase-database.js"></script>
     <script src="chat.js"></script>
   </body>
 </html>
