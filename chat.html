@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chat Website</title>
+    <link rel="stylesheet" type="text/css" href="chat.css">
+  </head>
+  <body>
+    <div id="chat-container">
+      <div id="chat-header">
+        <h1>Welcome to the Chat Website</h1>
+      </div>
+      <div id="chat-messages">
+        <ul id="message-list">
+          <!-- messages will be appended here -->
+        </ul>
+      </div>
+      <div id="chat-input">
+        <form>
+          <input type="text" id="message-input" placeholder="Type your message here...">
+          <button type="button" id="emoji-picker-btn">🙂</button>
+          <button type="submit" id="send-btn">Send</button>
+        </form>
+      </div>
+    </div>
+    <script src="chat.js"></script>
+  </body>
+</html>
